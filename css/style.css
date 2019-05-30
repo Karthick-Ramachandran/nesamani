@@ -1,0 +1,68 @@
+body{
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+#desc {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+.balloon{
+	width: 100px;
+	height: 200px;
+	bottom: 100vh;
+	position: absolute;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.balloon-red{
+	background-image: url(../images/suthityal.jpeg);
+}
+.balloon-yellow{
+	background-image: url(../images/suthityal.jpeg);;
+}
+.balloon-blue{
+	background-image: url(../images/suthityal.jpeg);;
+}
+.balloon-violet{
+	background-image: url(../images/suthityal.jpeg);;
+}
+.balloon-green{
+	background-image: url(../images/suthityal.jpeg);;
+}
+
+.total-shadow{
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.6);
+	/*display: flex;*/
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	position: relative;
+}
+
+.total-block{
+	background: #fff;
+	padding: 10px 100px 40px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.lose{
+	display: none;
+}
+.win{
+	display: none;
+}
